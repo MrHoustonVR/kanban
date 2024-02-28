@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-grow: 1;
+    overflow: auto;
+}
+#menu {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    padding: 0.5rem 1rem;
+
+}
+
+main {
+    background-color: #f5f8f9;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+footer {
+    padding: 0.5rem;
+    text-align: right;
+}
+
+.wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.unmarkedList {
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+
+.autrhorPhoto {
+    width: 25%;
+    height: auto;
+}
+.flexGrow1 {
+    flex-grow: 1;
+}
